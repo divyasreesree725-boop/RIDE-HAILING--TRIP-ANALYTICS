@@ -59,13 +59,13 @@ Built in Databricks AI/BI on the Gold tables only.
 
 ### Page 1: Overview
 
-![dashboard overview](dashboard_overview.png)
+![dashboard_overview](dashboard_overview.png)
 
 1,168 trips, about 2.37 lakh net revenue, 15,769 km and about 52.6 thousand platform earnings, with net revenue by month and by city.
 
 ### Page 2: Vehicles and Payments
 
-![dashboard vehicles and payments](dashboard_vehicles_payments.png)
+![dashboard_vehicles_payments](dashboard_vehicles_payments.png)
 
 Trips, net revenue and average rating by vehicle type, trips by payment method and the pending amount.
 
