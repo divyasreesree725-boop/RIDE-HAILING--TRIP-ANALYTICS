@@ -59,7 +59,7 @@ Built in Databricks AI/BI on the Gold tables only.
 
 ### Page 1: Overview
 
-![Dashboard_overview](Dashboard_overview.png)
+![Dashboard_Overview](Dashboard_Overview.png)
 
 1,168 trips, about 2.37 lakh net revenue, 15,769 km and about 52.6 thousand platform earnings, with net revenue by month and by city.
 
