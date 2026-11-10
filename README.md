@@ -25,7 +25,7 @@ Source CSV (Unity Catalog Volume) -> Bronze -> Silver (clean + rejected) -> Gold
 
 ## Pipeline
 
-(pipeline_graph.png)
+![pipeline graph](pipeline_graph.png)
 
 Bronze keeps the raw data, Silver cleans it and quarantines bad rows, and Gold builds the summary tables. The full code is in `ride_trips_pipeline.sql`.
 
@@ -45,13 +45,13 @@ Bronze keeps the raw data, Silver cleans it and quarantines bad rows, and Gold b
 
 ## Data quality and reconciliation
 
-(data_quality_result.png)
+![data quality result](data_quality_result.png)
 
 **1,214 Bronze rows = 1,168 clean + 22 rejected + 24 duplicates removed.** The `gold_data_quality` table returns `reconciliation_passed = Yes`.
 
 ## Gold table example
 
-(gold_vehicle_summary.png)
+![gold_vehicle summary](gold_vehicle_summary.png)
 
 ## Dashboard
 
@@ -59,19 +59,19 @@ Built in Databricks AI/BI on the Gold tables only.
 
 ### Page 1: Overview
 
-(Dashboard_Overview.png)
+![dashboard overview](dashboard_overview.png)
 
 1,168 trips, about 2.37 lakh net revenue, 15,769 km and about 52.6 thousand platform earnings, with net revenue by month and by city.
 
 ### Page 2: Vehicles and Payments
 
-(Dashboard_vehicles_payments.png)
+![dashboard vehicles and payments](dashboard_vehicles_payments.png)
 
 Trips, net revenue and average rating by vehicle type, trips by payment method and the pending amount.
 
 ### Page 3: Data Quality
 
-(dashboard_data_quality.png)
+![dashboard data quality](dashboard_data_quality.png)
 
 Bronze, clean, rejected and duplicate row counts, the reconciliation check and a bar chart of the issues found.
 
